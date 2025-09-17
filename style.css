@@ -1,0 +1,131 @@
+h1, h2, h3 {  font-family: "Audiowide", sans-serif;
+       }
+
+h1 {
+  font-size: 48px; 
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+   }
+
+h2 {
+  font-size: 30px; 
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  margin-top: -40px
+   }
+
+h3 {
+  font-size: 18px; 
+  text-decoration: underline;
+  margin: 40px 0 20px;
+  position: relative;   
+}
+
+h3::before {
+  content: "";
+  display: block;
+  width: 60%;              
+  height: 3px;
+  background-color: #e6352b;
+  margin: 0 auto 15px;     
+}
+
+
+.contact {
+  text-align: center;  
+  margin: 20px 0;    
+  line-height: 1.6;
+}
+
+a:link {
+  color: #e6352b;
+}
+
+a:visited {
+  color: #4e0400;
+}
+
+a:hover {
+  color: #99231d;
+}
+
+.ani {
+  background-image: url("images/hyperspace.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 130px;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.95); 
+}
+
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color:#000;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  line-height: 1.6;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.85); 
+  max-width: 1200px;  
+  margin: 40px auto; 
+  padding: 20px;
+  border-radius: 10px; 
+}
+
+.container .ani { 
+  margin: -60px -20px 60px -20px;  
+  border-radius: 10px 10px 0 0;  
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+}
+
+ul {
+  list-style-image: url("images/mustafar.png");
+  padding-left: 25px;
+  list-style-position: inside;
+}
+
+.references {
+  width: 80%;                
+  margin: 10px auto;           
+  border-collapse: collapse;
+  font-size: 14px;            
+  text-align: left;
+  border-top: 3px solid #e6352b; 
+  background-color: #000000;   
+  color: #ffffff;              
+}
+
+.references th {
+  background-color: #e6352b;
+  color: #ffffff;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.references td {
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  font-weight: bold;
+}
+
+
+
+
+/* ChatGPT helped with lines separating content and pseudo-element incorporations */
