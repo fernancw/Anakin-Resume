@@ -10,11 +10,13 @@ h1 {
    }
 
 h2 {
-  font-size: 30px; 
+  font-size: 30px;
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-  margin-top: -40px
-   }
+  margin-top: 10px;        
+  margin-bottom: 0;
+}
+
 
 h3 {
   font-size: 18px; 
@@ -126,6 +128,50 @@ ul {
 }
 
 
+#contact {
+  border-top: 3px solid #e6352b;
+  border-bottom: 3px solid #e6352b;
+  padding: 10px 0;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#contact h3::before {
+  display: none;
+}
+
+.addborder {
+  border: 2px dashed #e6352b;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#contact h3 {
+  color: #e6352b;
+  text-transform: uppercase;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.text-end {
+  text-align: right;
+}
+
+.card-title {
+  color: #e6352b !important;
+}
+
+.card a {
+  color: #e6352b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card a:hover {
+  color: #99231d;
+  text-decoration: underline;
+}
 
 
 /* ChatGPT helped with lines separating content and pseudo-element incorporations */
